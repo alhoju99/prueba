@@ -2,8 +2,9 @@
   body {
     font-family: "Helvetica", Arial, sans-serif;
     margin-top: 10%;
+    margin: 0;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
   }
   
   .mosaic-background {
