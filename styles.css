@@ -39,12 +39,12 @@
     transition: all 0.2s;
     border: 10px solid #008ee0;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   b{
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
   }
   
   .navbar a:hover {
