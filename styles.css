@@ -1,0 +1,242 @@
+  body {
+    font-family: "Helvetica", Arial, sans-serif;
+    margin: 10%;
+    margin-top: 1%;
+    padding: 1%;
+  }
+  
+  .mosaic-background {
+    background-image: url('fondo.jpg'); /* Reemplaza 'mosaic-background.jpg' con la ruta a tu imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #008ee0;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .navbar-left {
+    margin-right: auto;
+  }
+  
+  .navbar-center {
+    margin-left: auto;
+    margin-right: 43%;
+    text-align: center;
+  }
+  
+  .navbar-text {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.2s;
+    border: 10px solid #008ee0;
+    border-radius: 5px;
+  }
+
+  b{
+    color: #fff;
+  }
+  
+  .navbar a:hover {
+    color: #000000;
+    transform: scale(3.5);
+    box-shadow: 0 4px 8px #008ee0;
+  }
+
+  .navbar-text:hover {
+    color: #ccc;
+  }
+
+/*  .navbar-center:hover{
+    transform: scale(1.5);
+    box-shadow: 0 4px 8px rgb(255, 0, 0);
+  }*/
+  
+  .title{
+    padding-top: 1%;
+    margin: 2% auto;
+    color: #333;
+  }
+  
+
+  .inicio{
+    margin-bottom: 1px;
+    max-width: 50%;
+    margin: 2% auto;
+    padding-top: 3%;
+    text-align: center;
+    transition: all 0.3s;
+  }
+
+  .info{
+    margin-bottom: 5%;
+    max-width: 50%;
+    margin: 2% auto;
+    padding-top: 3%;
+    text-align: center;
+    transition: all 0.3s;
+  }
+
+  
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .other {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .exp{
+    flex: 1;
+    order:2;
+    margin-bottom: 10px;
+    max-width: 40%;
+    margin: 1% auto;
+    padding-top: 5%;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .apt {
+    flex: 1;
+    order:1;
+    margin-bottom: 10px;
+    max-width: 20%;
+    margin: 2% auto;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.2s;
+  }
+  
+  .esp {
+    flex: 1;
+    order:3;
+    margin-bottom: 10px;
+    margin-right: 30%;
+    max-width: 20%;
+    margin: 2% auto;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.2s;
+  }
+  
+  
+  .edu {
+    flex:1;
+    order:1;
+    margin-bottom: 10px;
+    max-width: 45%;
+    margin: 2% auto;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s;
+  }
+
+  .interes {
+    flex:1;
+    order:2;
+    margin-bottom: 10px;
+    max-width: 45%;
+    margin: 2% auto;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s;
+  }
+
+
+  .apt:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .esp:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .exp:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .edu:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .interes:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .seccion:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h1 {
+    color: #00629b;
+  }
+
+  h2 {
+    color: #00438b;
+    margin-top: 0;
+    transition: color 0.3s;
+  }
+  
+  h2:hover {
+    color: #9900ff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  } 
